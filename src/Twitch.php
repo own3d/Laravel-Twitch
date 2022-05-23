@@ -18,13 +18,15 @@ class Twitch
     use Api\AdsTrait;
     use Api\AnalyticsTrait;
     use Api\BitsTrait;
-    use Api\ChannelPoints;
+    use Api\ChannelsTrait;
+    use Api\ChannelPointsTrait;
     use Api\ChatTrait;
     use Api\ClipsTrait;
     use Api\EntitlementsTrait;
     use Api\EventSubTrait;
     use Api\ExtensionsTrait;
     use Api\GamesTrait;
+    use Api\GoalsTrait;
     use Api\HypeTrainTrait;
     use Api\PollsTrait;
     use Api\PredictionsTrait;
@@ -36,6 +38,7 @@ class Twitch
     use Api\TagsTrait;
     use Api\ModerationTrait;
     use Api\WebhooksTrait;
+    use Api\ScheduleTrait;
 
     public const BASE_URI = 'https://api.twitch.tv/helix/';
 
